@@ -1,11 +1,11 @@
 import React from 'react'
-import Wts1 from '../assets/wts1.png'
-import Wts3 from '../assets/wts3.png'
+import Wts1 from '../assets/Wts1.png'
+import Wts3 from '../assets/Wts3.png'
 import { FaUtensils, FaStar, FaHeart, FaShareAlt } from 'react-icons/fa'
 
 const Wts = () => {
     return (
-        <section className=' py-12 sm:py-16 md:py-20 lg:py-24 xl:py-28 bg-gradient-to-br from-orange-50 to-amber-50 relative overflow-hidden'>
+        <section className=' py-12 sm:py-16 md:py-20 lg:py-24 xl:py-28 bg-linear-to-br from-orange-50 to-amber-50 relative overflow-hidden'>
 
             <div className=' container mx-auto px-4 sm:px-6 md:px-8 xl:px-12 2xl:px-16 relative flex flex-col md:flex-row items-center gap-6 md:gap-8 lg:-gp-12 xl:gap-16 '>
 
