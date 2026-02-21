@@ -1,16 +1,129 @@
-# React + Vite
+# 🍽️ Foodie Hub - Food Delivery Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive food delivery platform built with **React** and **Vite**, featuring an intuitive user interface with smooth animations and seamless navigation.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🎨 **Responsive Design** - Fully optimized for mobile, tablet, and desktop
+- 🧭 **Dynamic Navigation** - Fixed navbar with search, cart, and authentication
+- 🎬 **Interactive Hero Banner** - Video modal integration with call-to-action buttons
+- 🛎️ **Service Showcase** - Animated cards highlighting key services
+- 📋 **Interactive Menu System** - Dynamic category selection with image carousel
+- ⭐ **Customer Testimonials** - Real reviews and ratings section
+- 📧 **Newsletter Subscription** - Email signup for exclusive offers
+- 🎭 **Smooth Animations** - Professional transitions and hover effects
+- 📱 **Mobile-First Approach** - Optimized for all screen sizes
 
-## React Compiler
+## 🚀 Quick Start
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
 
-## Expanding the ESLint configuration
+### Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+# Clone the repository
+git clone <repository-url>
+cd FoodieHub
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+Visit `http://localhost:5173` in your browser.
+
+## 📜 Available Commands
+
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Start dev server with Hot Module Replacement |
+| `npm run build` | Build production-optimized bundle |
+| `npm run preview` | Preview production build locally |
+| `npm run lint` | Run ESLint for code quality |
+
+## 🏗️ Project Structure
+
+```
+FoodieHub/
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx       # Navigation bar with mobile menu
+│   │   ├── Banner.jsx       # Hero section with video modal
+│   │   ├── Wws.jsx          # "What We Serve" services
+│   │   ├── Om.jsx           # "Our Menu" section
+│   │   ├── Wts.jsx          # "What They Say" testimonials
+│   │   ├── Footer.jsx       # Footer with links & newsletter
+│   │   └── global.css       # Custom font imports
+│   ├── assets/              # Images and media files
+│   ├── App.jsx              # Root component
+│   ├── main.jsx             # React entry point
+│   └── index.css            # Global styles & Tailwind
+├── package.json
+├── vite.config.js
+├── tailwind.config.js
+└── README.md
+```
+
+## 🛠️ Tech Stack
+
+| Technology | Version | Purpose |
+|------------|---------|---------|
+| React | 19.2 | UI Library |
+| Vite | 7.3 | Build Tool & Dev Server |
+| Tailwind CSS | 4.1 | Styling Framework |
+| React Icons | 5.5 | Icon Components |
+| ESLint | Latest | Code Quality |
+
+## 🎨 Design System
+
+### Color Palette
+- **Primary Gradient**: Orange (`#d35400`) → Red (`#e65100`)
+- **Background**: Soft gradient (Red-50 → Orange-50 → Yellow-50)
+- **Accent**: Red (`#ef4444`) for CTAs
+- **Text**: Neutral gray tones
+
+### Typography
+- Custom fonts imported via Google Fonts
+- Responsive text sizing for all screen sizes
+
+## 📱 Component Overview
+
+### Navbar
+Fixed navigation with responsive mobile menu, search bar, and user options.
+
+### Banner
+Eye-catching hero section with video modal integration and prominent CTA buttons.
+
+### Wws (What We Serve)
+Service showcase with animated cards and hover effects.
+
+### Om (Our Menu)
+Interactive menu selector with category navigation and image carousel.
+
+### Wts (What They Say)
+Customer testimonials with ratings and review highlights.
+
+### Footer
+Comprehensive footer with quick links, contact info, and newsletter signup.
+
+## 📞 Contact Information
+
+- **Email**: contact@foodies.com
+- **Phone**: +91 234 567 890
+- **Location**: 123 Food Street, New York
+
+## 👨‍💻 Contributors
+
+Designed by **Sultan AL Islam**
+
+## 📄 License
+
+© 2026 Foodie's Hub. All rights reserved.
+
+---
+
+**Built with ❤️ using React and Vite**
